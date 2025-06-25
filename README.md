@@ -1,0 +1,5 @@
+The code here is structured into 2 parts:
+
+The newscrawler folder: This contains the scrapy spiders code to crawl the 15 newssites. These classes can be found in the spiders folder. The data folder contains all the code to preprocess the collected data which can be found on the SMASH1 server (smash1.inf.ed.ac.uk) in the mnt/raid1/UG4s/AY2425/odutta/dissertation-newscrawler/newscrawler/data folder. The collected was too big to submit here. The all_cleaned_data folder inside the data folder here also has code to randomly choose two articles (used for IAA) and to randomly select 200 articles for the training set. There are also some code files here that calculate basic statistics about the collected data. 
+
+The notebooks folder: contains all the Jupyter Notebooks that were used to classify the data, conduct data analysis, and plot graphs from the results. 

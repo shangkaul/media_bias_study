@@ -1,0 +1,35 @@
+# Core scraping libraries
+scrapy>=2.11.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# NLP + Classification
+spacy>=3.7.2
+transformers>=4.39.3
+torch>=2.2.2
+scikit-learn>=1.4.2
+
+# Data processing + analysis
+pandas>=2.2.2
+numpy>=1.26.4
+matplotlib>=3.8.4
+seaborn>=0.13.2
+
+# Jupyter + notebooks
+notebook>=7.1.3
+ipykernel>=6.29.4
+
+# JSON + date parsing helpers
+python-dateutil>=2.8.2
+ujson>=5.9.0
+
+# Optional: Logging and tqdm for nicer CLI feedback
+tqdm>=4.66.2
+loguru>=0.7.2
+
+# Optional: If you plan to use Selenium for dynamic sites
+# selenium>=4.20.0
+
+# Optional: If using langdetect for language filtering
+# langdetect>=1.0.9
+
