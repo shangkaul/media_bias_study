@@ -17,3 +17,12 @@ newscrawler/wp_sitemaps.zip
 *.log
 
 notebooks/*.json
+notebooks/*.parquet
+notebooks/data/
+notebooks/data_archive/
+notebooks/img/
+notebooks/img_copy/
+notebooks/temp_results/
+
+*.json
+*.parquet
